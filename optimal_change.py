@@ -51,6 +51,7 @@ def optimal_change(item_cost, ammount_paid):
             pass
         elif(counter == len(change)):
             output+= "and "
+        
         if(item != 'penny'):
             if change[item] > 1:
                 output += f"{change[item]} {item}s"
